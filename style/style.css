@@ -1,0 +1,48 @@
+body {
+  	font-family: "Times New Roman", Times,  sans-serif; /* Семейство шрифтов */
+  	font-size: 18pt; /* Размер основного шрифта в пунктах  */
+  	background-color: #f5f5dc; /* Цвет фона веб-страницы берюзовый */
+  	color: #654321; /* Цвет основного текста коричневый*/ 
+}
+h1 {
+  	color: #7fff00; /* Цвет заголовка салатовый*/
+  	font-size: 36pt; /* Размер шрифта в пунктах */
+  	font-family: "Times New Roman", Times, serif; /* Шрифтов */
+  	font-weight: bold; /* Нормальное начертание текста  */
+  	text-align: center; /* Ориентация текста */
+}
+.button {
+  display: inline-block;
+  padding: 10px 15px; /* минимальный размер кнопки */
+  font-size: 24px; /* размер текста */
+  cursor: pointer; /* Курсор*/
+  text-align: center; /* ориентация текста в кнопке */
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #333; /* цвет верххней части кнопки */
+  border: none;
+  border-radius: 15px; /* радиус углов кнопки */
+  box-shadow: 0 10px #4567; /* */
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+}
+p {
+	color: #654321; /* Цвет заголовка салатовый*/
+  	font-size: 24pt; /* Размер шрифта в пунктах */
+  	font-family: "Times New Roman", Times, serif; /* Шрифтов */
+  	font-weight: lighter; /* Нормальное начертание текста  */
+  	
+}
+
+
+
+{}
