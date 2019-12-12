@@ -1,13 +1,26 @@
 #Dvigaisya{
-float: left;
+float: center;
 }
 
 #Esh{
-float: left;
+float: center;
 
 }
 
 #Potreblyai{
+float: center;
 
+}
 
+.header{ 
+	padding-top: 100px; 
+	
+}
+
+#eshImg{
+
+	margin-left:100px;
+}
+#headText{
+float: left;
 }

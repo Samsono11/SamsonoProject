@@ -1,9 +1,9 @@
 body {
-  	background-color: #f5f5dc; /* Цвет фона веб-страницы берюзовый */
-  	color: #654321; /* Цвет основного текста коричневый*/ 
+  	background-color: #FFF6F2; /* Цвет фона веб-страницы бирюзовый */
+  	color: #000000; /* Цвет основного текста черный*/ 
 }
 h1 {
-  	color: #7fff00; /* Цвет заголовка салатовый*/
+  	color: #537428; /* Цвет заголовка зеленый*/
   	font-size: 36pt; /* Размер шрифта в пунктах */
   	font-family: "Times New Roman", Times, serif; /* Шрифтов */
   	font-weight: bold; /* Нормальное начертание текста  */
@@ -18,7 +18,7 @@ button.buttonUvedomit {
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: #333; /* цвет верххней части кнопки */
+  background-color: #C2966D; /* цвет верхней части кнопки */
   border: none;
   border-radius: 15px; /* радиус углов кнопки */
   box-shadow: 0 10px #4567; /* */
