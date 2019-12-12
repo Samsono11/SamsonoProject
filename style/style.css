@@ -9,6 +9,17 @@ h1 {
   	font-weight: bold; /* Нормальное начертание текста  */
   	text-align: center; /* Ориентация текста */
 }
+
+span.zagolovok{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 130px;
+line-height: 152px;
+letter-spacing: 0.01em;
+
+color: #537428;
+}
 button.buttonUvedomit {
   display: inline-block;
   padding: 10px 15px; /* минимальный размер кнопки */
@@ -26,7 +37,7 @@ button.buttonUvedomit {
 
 button.buttonUvedomit:hover {background-color: #3e8e41}
 
-button.buttonUvedomit:active {
+button.uttonUvedomit:active {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);

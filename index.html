@@ -8,51 +8,51 @@
 </head>
 <body>
 <!--Контейнер шапки с тремя картинками и заголовком-->
-<div class="header">	
+<div id="header">	
 
-	<div class="HeadPictures"> <!-- контейнер для трех картинок--> <!--Используется id вместо class возможно потом поменяем для ВСЕХ div -ов id вместо class-->
+	<div id="HeadPictures"> <!-- контейнер для трех картинок--> <!--Используется id вместо class возможно потом поменяем для ВСЕХ div -ов id вместо class-->
 
 		<div id="Esh">
-			<div class="EshImg">
+			<div id="EshImg">
 				<img src="img/EAT.png">
         	</div>
 
-        	<div class="EshText">
-        		<p class="headText">Ешь</p></div>		<!--Используется class headText для всех подписей, чтобы они были одинаковые по стилю-->
+        	<div id="EshText">
+        		<p id="headText">Ешь</p></div>		<!--Используется class headText для всех подписей, чтобы они были одинаковые по стилю-->
 			</div>
 
 		<div id="Dvigaisya"> <!-- контейнер для картинки с бегом и подписью-->
-			<div class="DvigaisyaImg"> <!-- контейнер с картинкой-->
+			<div id="DvigaisyaImg"> <!-- контейнер с картинкой-->
 				<img src="img/DVIGAISYA.png">
         		</div>
-        	<div class="DvigaisyaText"> <!-- контейнер с подписью-->
-        		<p class="headText">Двигайся</p></div>		 <!--Используется class headText для всех подписей, чтобы они были одинаковые по стилю-->
+        	<div id="DvigaisyaText"> <!-- контейнер с подписью-->
+        		<p id="headText">Двигайся</p></div>		 <!--Используется class headText для всех подписей, чтобы они были одинаковые по стилю-->
 		</div>
 
 		<div id="Sortiruy">
-			<div class="PotreblyaiImg">
+			<div id="PotreblyaiImg">
 				<img src="img/SORT.png">
         	</div>
-        	<div class="PotreblyaiText">
-        		<p class="headText">Сортируй</p>		<!--Используется class headText для всех подписей, чтобы они были одинаковые по стилю-->
+        	<div id="PotreblyaiText">
+        		<p id="headText">Сортируй</p>		<!--Используется class headText для всех подписей, чтобы они были одинаковые по стилю-->
         	</div>
 		</div>		   
  
 	</div>
 
-	<div class="MainText">
-		<div class="zagolovok">
-	  		<h1>Осознанная жизнь</h1>
+	<div id="MainText">
+		<div id="zagolovok">
+	  		<span class="zagolovok">Осознанная жизнь</span>
 	  	</div>
 
 	<div class="buttonSoobsit">	<!-- контейнер для кнопки-->
 
     	<button onClick='location.href="https://docs.google.com/forms/d/e/1FAIpQLSelVbjYoGt1q3QjYfeB2zDsl7afLZM7T9I0ZH9ZKVEZShtv0w/viewform?usp=sf_link"' 
-    		class = "buttonUvedomit">Сообщить о запуске</button>	<!-- кнопка ИЗМЕНИЛА ЗНАЧЕНИЕ КЛАССА-->
+    		class="buttonUvedomit">Сообщить о запуске</button>	<!-- кнопка ИЗМЕНИЛА ЗНАЧЕНИЕ КЛАССА-->
 
   	</div>
 
-	<div class="podzagolovok">
+	<div id="podzagolovok">
 		<p>С нами просто:</p>
 		</div>
 
@@ -64,10 +64,10 @@
 
 <!--Контейнер с информацией-->
     
-<div class="information">
+<div id="information">
 
-	<div class="yoga">	
-			<div class="yogaImg">
+	<div id="yoga">	
+			<div id="yogaImg">
 	    		<img src="img/yoga.png">
 	    	</div>
 	    	<div class="YogaText">
@@ -75,29 +75,29 @@
 			</div>
  	</div>    
 
- 	<div class="ration">	
-			<div class="rationImg">
+ 	<div id="ration">	
+			<div id="rationImg">
 	    		<img src="img/Ration.png">
 	    	</div>
-	    	<div class="rationText">
+	    	<div id="rationText">
 	    		<p>Составлять рацион</p> 
 			</div>
  	</div>
  	
- 	<div class="sort">	
-			<div class="sortImg">
+ 	<div id="sort">	
+			<div id="sortImg">
 	    		<img src="img/sortiruy.png">
 	    	</div>
-	    	<div class="SortText">
+	    	<div id="SortText">
 	    		<p>Сортировать мусор</p> 
 			</div>
  	</div>	   
 
- 	<div class="stress">	<!-- контейнер для картинки с расслабленный чуваком и текстом-->
-			<div class="stressImg">
+ 	<div id="stress">	<!-- контейнер для картинки с расслабленный чуваком и текстом-->
+			<div id="stressImg">
 	    		<img src="img/Relax.png">
 	    	</div>
-	    	<div class="stressText">
+	    	<div id="stressText">
 	    		<p>Осознанность освобождает от стресса</p> 
 			</div>
  	</div>
@@ -109,16 +109,16 @@
 
 <!--Футер с кредитсами-->
 
-<div class="footer"> 
-	<div class="footerImg">	<!-- контейнер с картинкой слева от кнопки-->
+<div id="footer"> 
+	<div id="footerImg">	<!-- контейнер с картинкой слева от кнопки-->
 	    		<img src="#null">
 	    	</div>
     <button onClick='location.href="https://docs.google.com/forms/d/e/1FAIpQLSelVbjYoGt1q3QjYfeB2zDsl7afLZM7T9I0ZH9ZKVEZShtv0w/viewform?usp=sf_link"' 
-    		class = "buttonUvedomit">Сообщить о запуске</button>
+    		class="buttonUvedomit">Сообщить о запуске</button>
     
-        <p class="credits">© Project by Samsonova Maria</p>
-        <p class="credits">© Artist Sashko (@sashkosha)</p>
-    <div class="footerImg">	<!-- контейнер с картинкой справа от кнопки пока что #null-->
+        <p id="credits">© Project by Samsonova Maria</p>
+        <p id="credits">© Artist Sashko (@sashkosha)</p>
+    <div id="footerImg">	<!-- контейнер с картинкой справа от кнопки пока что #null-->
 	    		<img src="#null">
 	    	</div>
 
