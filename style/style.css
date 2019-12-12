@@ -9,7 +9,7 @@ h1 {
   	font-weight: bold; /* Нормальное начертание текста  */
   	text-align: center; /* Ориентация текста */
 }
-.button {
+button.buttonUvedomit {
   display: inline-block;
   padding: 10px 15px; /* минимальный размер кнопки */
   font-size: 24px; /* размер текста */
@@ -24,9 +24,9 @@ h1 {
   box-shadow: 0 10px #4567; /* */
 }
 
-.button:hover {background-color: #3e8e41}
+button.buttonUvedomit:hover {background-color: #3e8e41}
 
-.button:active {
+button.buttonUvedomit:active {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);

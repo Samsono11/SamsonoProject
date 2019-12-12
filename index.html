@@ -3,85 +3,174 @@
 <head>
 <title>Counsciousvitae</title>
 <meta charset="utf-8">
-<link rel="stylesheet" href="/home/elama/projects/SamsonoProject/style/style.css">
+<link rel="stylesheet" href="style/div.css"> <!-- сss файл для хранения div -ов (там будет информация про их расположение-->
+<link rel="stylesheet" href="style/style.css"> <!-- сss файл для хранения для остальных тэгов (текст, картинки, цвета)-->
 </head>
 <body>
-	
-    <form action= "https://docs.google.com/forms/d/e/1FAIpQLSelVbjYoGt1q3QjYfeB2zDsl7afLZM7T9I0ZH9ZKVEZShtv0w/viewform?usp=sf_link" target="_blank">
-    <button class = "button">Уведомить о запуске</button>
-  
-    <div>
-        <img src="/home/elama/projects/SamsonoProject/img/yoga.png" alt="Sashko" width="279" height="308">
-	
-    </div>
-    
-<div>
-	<h1>Осознанная жизнь</h1>
-	<p>Наш проект это:</p>
-    <p>Двигайся</p>
-    
-    <img src="/home/elama/projects/SamsonoProject/img/DVIGAISYA.png" 
-    	alt="фотография взята с https://unsplash.com" 
-        width="432" 
-        height="318">
-	
-    
-	 <p>Ешь</p>
-     
-    <img src="/home/elama/projects/SamsonoProject/img/EAT.png" alt="фотография взята с https://unsplash.com" 
-        width="254" 
-        height="233">
-	
-    
-     <p>Потребляй</p>
-     
-    <img src="/home/elama/projects/SamsonoProject/img/SORT.png" 
-        alt="Sashko"
-        width="353" 
-        height="268">
-	
-    <p> Осознанно</p>
+<!--Контейнер шапки с тремя картинками и заголовком-->
+<div class="header">	
+
+	<div class="HeadPictures"> <!-- контейнер для трех картинок--> <!--Используется id вместо class возможно потом поменяем для ВСЕХ div -ов id вместо class-->
+
+		<div id="Dvigaisya"> <!-- контейнер для картинки с бегом и подписью-->
+			<div class="DvigaisyaImg"> <!-- контейнер с картинкой-->
+				<img src="img/DVIGAISYA.png" 
+        		width="432" 
+        		height="318">
+        		</div>
+        	<div class="DvigaisyaText"> <!-- контейнер с подписью-->
+        		<p class="headText">Двигайся</p></div>		 <!--Используется class headText для всех подписей, чтобы они были одинаковые по стилю-->
+		</div>
+
+		<div id="Esh">
+			<div class="EshImg">
+				<img src="img/EAT.png" 
+        		width="432" 
+        		height="318">
+        	</div>
+
+        	<div class="EshText">
+        		<p class="headText">Ешь</p></div>		<!--Используется class headText для всех подписей, чтобы они были одинаковые по стилю-->
+			</div>
+
+		<div id="Potreblyai">
+			<div class="PotreblyaiImg">
+				<img src="img/SORT.png" 
+        		width="432" 
+        		height="318">
+        	</div>
+        	<div class="PotreblyaiText">
+        		<p class="headText">Потребляй</p>		<!--Используется class headText для всех подписей, чтобы они были одинаковые по стилю-->
+        	</div>
+		</div>		   
+ 
+	</div>
+
+	<div class="buttonUvedomit">	<!-- контейнер для кнопки-->
+
+    	<button onClick='location.href="https://docs.google.com/forms/d/e/1FAIpQLSelVbjYoGt1q3QjYfeB2zDsl7afLZM7T9I0ZH9ZKVEZShtv0w/viewform?usp=sf_link"' 
+    		class = "buttonUvedomit">Уведомить о запуске</button>	<!-- кнопка ИЗМЕНИЛА ЗНАЧЕНИЕ КЛАССА-->
+
+  	</div>
+
+	<div class="MainText">
+		<div class="zagolovok">
+	  		<h1>Осознанная жизнь</h1>
+	  	</div>
+	  	<div class="podzagolovok">
+		<p>Наш проект это:</p>
+		</div>
+
+	</div>
+
 </div>
-<div>	
-	<p>Любимая асана - шавасана</p> 
-    <img src="https://images.unsplash.com/photo-1517363898874-737b62a7db91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1258&q=80" 
-    	alt="фотография взята с https://unsplash.com"
-    	width="190" 
-        height="142">
-    <p>Составить рацион просто!</p> 
-    <img src="/home/elama/projects/SamsonoProject/img/Ration.png" 
-        alt="Sashko"
-        width="357" 
-        height="333">
-    <p>Сортируй мусор как за границей</p> 
-    <img src="/home/elama/projects/SamsonoProject/img/sortiruy.png" 
-    	alt="Sashko"
-        width="939" 
-        height="329">
-</div>
-<div>
-	<p> Осознанность освобождает от стресса, который делал тебя таким </p>
-    <img src="https://images.unsplash.com/photo-1519911937006-b83ad483d860?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" 
-    	alt="фотография взята с https://unsplash.com"
-        width="180" 
-        height="142">
+
+<!--Конец контейнера шапки с тремя картинками-->
+
+<!--Контейнер с информацией-->
     
-    <p>А с нами ты будешь таким</p>
-    <img src="/home/elama/projects/SamsonoProject/img/Relax.png" 
-    	alt="Sashko"
-        width="803" 
-        height="741">
+<div class="information">
+
+	<div class="yoga">	
+			<div class="yogaImg">
+	    		<img src="img/yoga.png"
+	    		width="190" 
+	        	height="142">
+	    	</div>
+	    	<div class="YogaText">
+	    		<p>Любимая асана - шавасана</p> 
+			</div>
+ 	</div>    
+
+ 	<div class="ration">	
+			<div class="rationImg">
+	    		<img src="img/Ration.png"
+	    		width="190" 
+	        	height="142">
+	    	</div>
+	    	<div class="rationText">
+	    		<p>Составить рацион просто!</p> 
+			</div>
+ 	</div>
+ 	
+ 	<div class="sort">	
+			<div class="sortImg">
+	    		<img src="img/sortiruy.png"
+	    		width="190" 
+	        	height="142">
+	    	</div>
+	    	<div class="SortText">
+	    		<p>Сортируй мусор как за границей</p> 
+			</div>
+ 	</div>	   
+
+ 	<div class="stress">	<!-- контейнер для картинки с расслабленный чуваком и текстом-->
+			<div class="stressImg">
+	    		<img src="img/Relax.png"
+	    		width="190" 
+	        	height="142">
+	    	</div>
+	    	<div class="stressText">
+	    		<p>Осознанность освобождает от стресса,</p> 
+			</div>
+ 	</div>
+
+
+  	<div class="do">	<!-- контейнер для веселой картинки-->
+	    	<div class="doText">
+	    		<p>который делал тебя таким</p> 
+			</div>
+
+			<div class="doImg">
+	    		<img src="img/sad.png"
+	    		width="190" 
+	        	height="142">
+	    	</div>
+ 	</div>
+
+  	<div class="posle">	<!-- контейнер для грустной картинки-->
+
+	    	<div class="posleText">
+	    		<p>А с нами ты будешь таким</p> 
+			</div>
+
+			<div class="posleImg">
+	    		<img src="img/happy.png"
+	    		width="190" 
+	        	height="142">
+	    	</div>
+
+ 	</div>
+
+
+
+
+
 </div>
-<div>
-<form
-action="https://docs.google.com/forms/d/e/1FAIpQLSelVbjYoGt1q3QjYfeB2zDsl7afLZM7T9I0ZH9ZKVEZShtv0w/viewform?usp=sf_link" 
-target="_blank">
-    <button>Уведомить о запуске</button>
+
+<!--Конец контейнера с информацией-->
+
+
+<!--Футер с кредитсами-->
+
+<div class="footer"> 
+	<div class="footerImg">	<!-- контейнер с картинкой слева от кнопки-->
+	    		<img src="#null"
+	    		width="190" 
+	        	height="142">
+	    	</div>
+    <button onClick='location.href="https://docs.google.com/forms/d/e/1FAIpQLSelVbjYoGt1q3QjYfeB2zDsl7afLZM7T9I0ZH9ZKVEZShtv0w/viewform?usp=sf_link"' 
+    		class = "buttonUvedomit">Уведомить о запуске</button>
     
-     <footer class="site-footer">
-        <p>© Project by Samsonova Maria</p>
-        <p>© Artist Sashko (@sashkosha)</p>
-      </footer>
+        <p class="credits">© Project by Samsonova Maria</p>
+        <p class="credits">© Artist Sashko (@sashkosha)</p>
+    <div class="footerImg">	<!-- контейнер с картинкой справа от кнопки пока что #null-->
+	    		<img src="#null"
+	    		width="190" 
+	        	height="142">
+	    	</div>
+
 </div>
+<!--Конец футреа с кредитсами-->
 </body>
 </html>
