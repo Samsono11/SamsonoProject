@@ -1,6 +1,4 @@
 body {
-  	font-family: "Times New Roman", Times,  sans-serif; /* Семейство шрифтов */
-  	font-size: 18pt; /* Размер основного шрифта в пунктах  */
   	background-color: #f5f5dc; /* Цвет фона веб-страницы берюзовый */
   	color: #654321; /* Цвет основного текста коричневый*/ 
 }
@@ -34,15 +32,33 @@ h1 {
   transform: translateY(4px);
 }
 
-}
 p {
-	color: #654321; /* Цвет заголовка салатовый*/
-  	font-size: 24pt; /* Размер шрифта в пунктах */
-  	font-family: "Times New Roman", Times, serif; /* Шрифтов */
-  	font-weight: lighter; /* Нормальное начертание текста  */
-  	
+  font-family: verdana;
+  font-size: 20px;
+  text-align: center;
+}
+@import "compass/css3";
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
 }
 
-
-
-{}
+.flex-item {
+  
+  line-height: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
