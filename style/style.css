@@ -1,5 +1,5 @@
 body {
-  	background-color: #f5f5dc; /* Цвет фона веб-страницы берюзовый */
+  	background-color: #FFF6F2; /* Цвет фона веб-страницы берюзовый */
   	color: #654321; /* Цвет основного текста коричневый*/ 
 }
 h1 {
@@ -10,9 +10,10 @@ h1 {
   	text-align: center; /* Ориентация текста */
 }
 button.buttonUvedomit {
+  
   display: inline-block;
-  padding: 10px 15px; /* минимальный размер кнопки */
-  font-size: 24px; /* размер текста */
+  padding: 40px 200px; /* минимальный размер кнопки */
+  font-size: 64px; /* размер текста */
   cursor: pointer; /* Курсор*/
   text-align: center; /* ориентация текста в кнопке */
   text-decoration: none;
@@ -20,7 +21,7 @@ button.buttonUvedomit {
   color: #fff;
   background-color: #333; /* цвет верххней части кнопки */
   border: none;
-  border-radius: 15px; /* радиус углов кнопки */
+  border-radius: 80px; /* радиус углов кнопки */
   box-shadow: 0 10px #4567; /* */
 }
 
@@ -29,36 +30,31 @@ button.buttonUvedomit:hover {background-color: #3e8e41}
 button.buttonUvedomit:active {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
-  transform: translateY(4px);
+  transform: translateY(4px);  
 }
-
+button.displayed { /*центрует кнопку*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
 p {
   font-family: verdana;
   font-size: 20px;
   text-align: center;
 }
-@import "compass/css3";
+.credits {
+  position: absolute;
+  width: 100%;
+  height: 5%;
+  left: auto;
+  top: auto;
 
-.flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
-}
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 50px;
 
-.flex-item {
-  
-  line-height: 20px;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
+  color: #000000;
+  margin-left: auto;
+  margin-right: auto;
 }
