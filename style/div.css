@@ -1,21 +1,36 @@
-#konteiner{
-	position: relative;
-    width: 80%;
+
+    
+   }/*#konteiner{
+	position: absolute;
+    width: 1920px;
+    height: 4420px;
     
     margin-left: auto;
     margin-right: auto;
     
+}*/
+#footer{
+	/* footer */
+		position: absolute;
+		width: 1694.66px;
+		height: 1008px;
+		left: 123px;
+		top: 3351px;
 }
-#Dvigaisya{
-float: left;
+#buttonII{
+		position: absolute;
+		width: 950px;
+		height: 230px;
+		left: 487px;
+		top: 3661px;
 }
 
-#Esh{
-float: left;
-
-}
-
-#Potreblyai{
-
+/*#footerImg{
+/* Fotter IMG */
+		position: absolute;
+		width: 1694.66px;
+		height: 903.64px;
+		left: 123px;
+		top: 3351px;
 
 }

@@ -1,130 +1,35 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Counsciousvitae</title>
-<meta charset="utf-8">
-<link rel="stylesheet" href="style/div.css"> <!-- сss файл для хранения div -ов (там будет информация про их расположение-->
-<link rel="stylesheet" href="style/style.css"> <!-- сss файл для хранения для остальных тэгов (текст, картинки, цвета)-->
+    <title>Counsciousvitae</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style/div.css">
+    <!-- сss файл для хранения div -ов (там будет информация про их расположение-->
+    <link rel="stylesheet" href="style/style.css">
+    <!-- сss файл для хранения для остальных тэгов (текст, картинки, цвета)-->
 </head>
-<body>
-<div id = "konteiner">	
-<!--Контейнер шапки с тремя картинками и заголовком-->
-<div class="header">	
 
-	<div class="HeadPictures"> <!-- контейнер для трех картинок--> <!--Используется id вместо class возможно потом поменяем для ВСЕХ div -ов id вместо class-->
+<body class="container">
+        <div>
+            <img class="EAT" src="img/EAT.png">
+            <img class="DVIGAISYA" src="img/DVIGAISYA.png">
+            <img class="SORT" src="img/SORT.png">
+            <!-- контейнер с картинкой слева от кнопки-->
+            <button onClick='location.href="https://docs.google.com/forms/d/e/1FAIpQLSelVbjYoGt1q3QjYfeB2zDsl7afLZM7T9I0ZH9ZKVEZShtv0w/viewform?usp=sf_link"' class="buttonUvedomit displayed">Сообщить о запуске</button>
+            <img class="musor" src="img/musor.png">
+            <img class="rastenie" src="img/rastenie.png">
+            <img class="paket" src="img/paket.png">
+            <img class="ovosch" src="img/ovosch.png">
+            <img class="morkov" src="img/morkov.png">
+            <img class="ration" src="img/Ration.png">
+            <button onClick='location.href="https://docs.google.com/forms/d/e/1FAIpQLSelVbjYoGt1q3QjYfeB2zDsl7afLZM7T9I0ZH9ZKVEZShtv0w/viewform?usp=sf_link"' class="buttonUvedomit">Сообщить о запуске</button>
+            <hr>
+            <p class="footer">© Project by Samsonova Maria </br>© Artist Sashko (@sashkosha)</p>
+            <!-- контейнер с картинкой справа от кнопки пока что #null--> 
+        </div>
 
-		<div id="Dvigaisya"> <!-- контейнер для картинки с бегом и подписью-->
-			<div class="DvigaisyaImg"> <!-- контейнер с картинкой-->
-				<img src="img/DVIGAISYA.png">
-        		</div>
-        	<div class="DvigaisyaText"> <!-- контейнер с подписью-->
-        		<p class="headText">Двигайся</p></div>		 <!--Используется class headText для всех подписей, чтобы они были одинаковые по стилю-->
-		</div>
-
-		<div id="Esh">
-			<div class="EshImg">
-				<img src="img/EAT.png">
-        	</div>
-
-        	<div class="EshText">
-        		<p class="headText">Ешь</p></div>		<!--Используется class headText для всех подписей, чтобы они были одинаковые по стилю-->
-			</div>
-
-		<div id="Potreblyai">
-			<div class="PotreblyaiImg">
-				<img src="img/SORT.png">
-        	</div>
-        	<div class="PotreblyaiText">
-        		<p class="headText">Потребляй</p>		<!--Используется class headText для всех подписей, чтобы они были одинаковые по стилю-->
-        	</div>
-		</div>		   
- 
-	</div>
-
-	<div class="buttonUvedomit">	<!-- контейнер для кнопки-->
-
-    	<button onClick='location.href="https://docs.google.com/forms/d/e/1FAIpQLSelVbjYoGt1q3QjYfeB2zDsl7afLZM7T9I0ZH9ZKVEZShtv0w/viewform?usp=sf_link"' 
-    		class = "buttonUvedomit displayed">Уведомить о запуске</button>	<!-- кнопка ИЗМЕНИЛА ЗНАЧЕНИЕ КЛАССА-->
-
-  	</div>
-
-	<div class="MainText">
-		<div class="zagolovok">
-	  		<h1>Осознанная жизнь</h1>
-	  	</div>
-	  	<div class="podzagolovok">
-		<p>Наш проект это:</p>
-		</div>
-
-	</div>
-
-</div>
-
-<!--Конец контейнера шапки с тремя картинками-->
-
-<!--Контейнер с информацией-->
-    
-<div class="information">
-
-	<div class="yoga">	
-			<div class="yogaImg">
-	    		<img src="img/yoga.png">
-	    	</div>
-	    	<div class="YogaText">
-	    		<p>Любимая асана - шавасана</p> 
-			</div>
- 	</div>    
-
- 	<div class="ration">	
-			<div class="rationImg">
-	    		<img src="img/Ration.png">
-	    	</div>
-	    	<div class="rationText">
-	    		<p>Составить рацион просто!</p> 
-			</div>
- 	</div>
- 	
- 	<div class="sort">	
-			<div class="sortImg">
-	    		<img src="img/sortiruy.png">
-	    	</div>
-	    	<div class="SortText">
-	    		<p>Сортируй мусор как за границей</p> 
-			</div>
- 	</div>	   
-
- 	<div class="stress">	<!-- контейнер для картинки с расслабленный чуваком и текстом-->
-			<div class="stressImg">
-	    		<img src="img/Relax.png">
-	    	</div>
-	    	<div class="stressText">
-	    		<p>Осознанность освобождает от стресса,</p> 
-			</div>
- 	</div>
-
-</div>
-
-<!--Конец контейнера с информацией-->
-
-
-<!--Футер с кредитсами-->
-
-<div class="footer"> 
-	<div class="footerImg">	<!-- контейнер с картинкой слева от кнопки-->
-	    		<img src="#null">
-	    	</div>
-    <button onClick='location.href="https://docs.google.com/forms/d/e/1FAIpQLSelVbjYoGt1q3QjYfeB2zDsl7afLZM7T9I0ZH9ZKVEZShtv0w/viewform?usp=sf_link"' 
-    		class = "buttonUvedomit displayed">Сообщить о запуске</button>
-    		<hr></hr>
-
-    
-        <p class="credits">© Project by Samsonova Maria </br>© Artist Sashko (@sashkosha)</p>
-    <div class="footerImg">	<!-- контейнер с картинкой справа от кнопки пока что #null-->
-	    		<img src="#null">
-	    	</div>
-
-</div>
-
-<!--Конец футреа с кредитсами-->
+        <!--Конец футреа с кредитсами-->
 </body>
+
 </html>
