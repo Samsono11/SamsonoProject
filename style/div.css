@@ -1,26 +1,78 @@
-#Dvigaisya{
-float: center;
-}
-
 #Esh{
-float: center;
-
+position: absolute;
+width: 313.78px;
+height: 364px;
+left: 265px;
+top: 117px;
 }
 
-#Potreblyai{
-float: center;
-
+#Dvigaisya{
+	position: absolute;
+width: 393.4px;
+height: 390.83px;
+left: 720.79px;
+top: 90.17px;
 }
-
-.header{ 
-	padding-top: 100px; 
-	
+#Sortiruy{
+	position: absolute;
+width: 394.8px;
+height: 373px;
+left: 1238px;
+top: 108px;
 }
-
-#eshImg{
-
-	margin-left:100px;
+#zagolovok{
+	position: absolute;
+width: 1433px;
+height: 142px;
+left: 251px;
+top: 747px;
 }
-#headText{
-float: left;
+.buttonSoobsit{
+	position: absolute;
+width: 753px;
+height: 105px;
+left: 557px;
+top: 579px;
+}
+#podzagolovok{
+	position: absolute;
+width: 503px;
+height: 75px;
+left: 251px;
+top: 969px;
+}
+#yoga{
+	position: absolute;
+width: 449px;
+height: 464px;
+left: 1121px;
+top: 1162px;
+}
+#ration{
+	position: absolute;
+width: 634px;
+height: 443px;
+left: 242px;
+top: 1176px;
+}
+#sort{
+	position: absolute;
+width: 659px;
+height: 356px;
+left: 591px;
+top: 1805px;
+}
+#stress{
+	position: absolute;
+width: 1376px;
+height: 762px;
+left: 270px;
+top: 2238px;
+}
+#footer{
+	position: absolute;
+width: 1694.66px;
+height: 1008px;
+left: 123px;
+top: 3351px;
 }
