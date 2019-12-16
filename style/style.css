@@ -1,5 +1,5 @@
 body {
-  	background-color: #FFF6F2; /* Цвет фона веб-страницы бирюзовый */
+  	background-color: #FBF3F3; /* Цвет фона веб-страницы бирюзовый */
   	color: #000000; /* Цвет основного текста черный*/ 
 }
 h1 {
@@ -23,8 +23,8 @@ text-decoration: none;
 font-family: Roboto;
 font-size: 36px;
 font-weight: bold;
-color: #FFFFFF;
-background: #3b1c02;
+color: #FBF3F3;
+background: #4BAEC9;
 padding-bottom: 35px;
 padding-right: 120px;
 padding-left: 120px;
@@ -39,8 +39,8 @@ text-decoration: none;
 font-family: Roboto;
 font-size: 36px;
 font-weight: bold;
-color: #abd476;
-background: #3b1c02;
+color: #FBF3F3;
+background: #A09F96;
 padding-bottom: 35px;
 padding-right: 120px;
 padding-left: 120px;
@@ -53,15 +53,21 @@ white-space: nowrap;
 
 span.zagolovok{
 font-family: Roboto;
-font-style: normal;
-font-weight: bolder;
-font-size: 126px;
-line-height: 152px;
+font-weight: normal;
+text-align: center;
+font-size: 55px;
 letter-spacing: 0.01em;
-
-color: #537428;
+color: #4B4431;
 }
-
+span.osoznano{
+font-family: Roboto;
+font-weight: bold;
+text-align: center;
+font-size: 55px;
+letter-spacing: 0.01em;
+color: #4B4431;
+}
+}
 span.podzagolovok{
 font-family: Roboto;
 font-style: normal;

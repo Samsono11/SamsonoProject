@@ -1,7 +1,7 @@
 div{
 	// border: 1px solid red;
 }
-#container{
+.container{
   position: relative;
   margin: 0 auto;
   //margin-left: 6.5%;
@@ -9,17 +9,23 @@ div{
   width: 75%;
  // border: 1px solid red;
 }
-#header{
+.header{
 	//border: 1px solid red;
 
 }
 
-#HeadPictures{
+.HeadPictures{
 	//border: 1px solid red;
 	margin-left: 1.6%;
+	top: 80px;
+}
+.osoznano {
+position: relative;
+top: -25px;
+//border: 1px solid red;	
 }
 
-#Eat{
+.Eat{
 	//border: 1px solid red;
 	width: 20%;
 	position: relative;
@@ -27,18 +33,18 @@ div{
 	top: 15px;
 }
 
-#EatImg{
+.EatImg{
 
 }
 
-#EatText {
+.EatText {
 	position: relative;
 	width: 50%;
 	top: 25px;
 	margin: 0 auto;
 }
 
-#Sport{
+.Sport{
 	margin-left: 15%;
 	//border: 1px solid red;
 	width: 24.9%;
@@ -46,11 +52,11 @@ div{
 	float: left;
 }
 
-#SportImg{
+.SportImg{
 
 }
 
-#SportText{
+.SportText{
 
 	position: relative;
 	width: 90%;
@@ -59,7 +65,7 @@ div{
 
 }
 
-#Sorting{
+.Sorting{
 	margin-left: 14%;
 	//border: 1px solid red;
 	width: 24.9%;
@@ -68,39 +74,40 @@ div{
 	top: 15px;
 }
 
-#SortingImg{
+.SortingImg{
 
 }
 
-#SortingText{
+.SortingText{
 	position: relative;
 	width: 90%;
 	margin: 0 auto;
 	top: 25px;
 }
 
-#MainButton{
+.MainButton{
   position: relative;
- // border: 1px solid red;
-  left: 25%;
+  //border: 1px solid red;
+  left: 15%;
   width: 70%;
-  top: 200px;
+  top: 80px;
 }
 
-#MainText{
-top: 320px;
+.MainText{
 position: relative;
+top: 320px;
 //border: 1px solid red;
 }
 
-#zagolovok{
+.zagolovok{
 position: relative;
 //left: 0.68%;
 //border: 1px solid red;
+top: -20px;
 
 }
 
-#podzagolovok{
+.podzagolovok{
 top: 95px;
 position: relative;
 //left: 0.68%;
@@ -108,7 +115,7 @@ position: relative;
 
 }
 
-#information{
+.information{
 	position: relative;
 	border: 1px solid red;
 	top: 400px;
