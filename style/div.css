@@ -1,32 +1,120 @@
-#Esh{
-position: absolute;
-width: 313.78px;
-height: 364px;
-left: 265px;
-top: 117px;
+div{
+	// border: 1px solid red;
+}
+#container{
+  position: relative;
+  margin: 0 auto;
+  //margin-left: 6.5%;
+  margin-top: 4.5%;
+  width: 75%;
+ // border: 1px solid red;
+}
+#header{
+	//border: 1px solid red;
+
 }
 
-#Dvigaisya{
-	position: absolute;
-width: 393.4px;
-height: 390.83px;
-left: 720.79px;
-top: 90.17px;
+#HeadPictures{
+	//border: 1px solid red;
+	margin-left: 1.6%;
 }
-#Sortiruy{
-	position: absolute;
-width: 394.8px;
-height: 373px;
-left: 1238px;
-top: 108px;
+
+#Eat{
+	//border: 1px solid red;
+	width: 20%;
+	position: relative;
+	float: left;
+	top: 15px;
 }
+
+#EatImg{
+
+}
+
+#EatText {
+	position: relative;
+	width: 50%;
+	top: 25px;
+	margin: 0 auto;
+}
+
+#Sport{
+	margin-left: 15%;
+	//border: 1px solid red;
+	width: 24.9%;
+	position: relative;	
+	float: left;
+}
+
+#SportImg{
+
+}
+
+#SportText{
+
+	position: relative;
+	width: 90%;
+	top: 40px;
+
+
+}
+
+#Sorting{
+	margin-left: 14%;
+	//border: 1px solid red;
+	width: 24.9%;
+	position: relative;	
+	float: left;
+	top: 15px;
+}
+
+#SortingImg{
+
+}
+
+#SortingText{
+	position: relative;
+	width: 90%;
+	margin: 0 auto;
+	top: 25px;
+}
+
+#MainButton{
+  position: relative;
+ // border: 1px solid red;
+  left: 25%;
+  width: 70%;
+  top: 200px;
+}
+
+#MainText{
+top: 320px;
+position: relative;
+//border: 1px solid red;
+}
+
 #zagolovok{
-	position: absolute;
-width: 1433px;
-height: 142px;
-left: 251px;
-top: 747px;
+position: relative;
+//left: 0.68%;
+//border: 1px solid red;
+
 }
+
+#podzagolovok{
+top: 95px;
+position: relative;
+//left: 0.68%;
+//border: 1px solid red;
+
+}
+
+#information{
+	position: relative;
+	border: 1px solid red;
+	top: 400px;
+}
+
+/*
 .buttonSoobsit{
 	position: absolute;
 width: 753px;
@@ -76,3 +164,4 @@ height: 1008px;
 left: 123px;
 top: 3351px;
 }
+*/

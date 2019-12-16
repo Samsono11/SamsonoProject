@@ -3,57 +3,66 @@
 <head>
 <title>Counsciousvitae</title>
 <meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap&subset=cyrillic" rel="stylesheet">
 <link rel="stylesheet" href="style/div.css"> <!-- сss файл для хранения div -ов (там будет информация про их расположение-->
 <link rel="stylesheet" href="style/style.css"> <!-- сss файл для хранения для остальных тэгов (текст, картинки, цвета)-->
 </head>
 <body>
+<div id="container">
+	<!--контейнер-->
 <!--Контейнер шапки с тремя картинками и заголовком-->
 <div id="header">	
 
-	<div id="HeadPictures"> <!-- контейнер для трех картинок--> <!--Используется id вместо class возможно потом поменяем для ВСЕХ div -ов id вместо class-->
+	<div id="HeadPictures"> 
+		<!-- контейнер для трех картинок--> <!--Используется id вместо class возможно потом поменяем для ВСЕХ div -ов id вместо class-->
 
-		<div id="Esh">
-			<div id="EshImg">
+		<div id="Eat">
+			<div id="EatImg">
 				<img src="img/EAT.png">
         	</div>
 
-        	<div id="EshText">
-        		<p id="headText">Ешь</p></div>		<!--Используется class headText для всех подписей, чтобы они были одинаковые по стилю-->
+        	<div id="EatText">
+        		<span class="headText">ЕШЬ</span></div>		
+        		<!--Используется class headText для всех подписей, чтобы они были одинаковые по стилю-->
 			</div>
 
-		<div id="Dvigaisya"> <!-- контейнер для картинки с бегом и подписью-->
-			<div id="DvigaisyaImg"> <!-- контейнер с картинкой-->
+		<div id="Sport"> 
+			<!-- контейнер для картинки с бегом и подписью-->
+			<div id="SportImg"> 
+				<!-- контейнер с картинкой-->
 				<img src="img/DVIGAISYA.png">
         		</div>
-        	<div id="DvigaisyaText"> <!-- контейнер с подписью-->
-        		<p id="headText">Двигайся</p></div>		 <!--Используется class headText для всех подписей, чтобы они были одинаковые по стилю-->
+        	<div id="SportText">
+        	 <!-- контейнер с подписью-->
+        		<span class="headText">ДВИГАЙСЯ</span></div>		 
+        		<!--Используется class headText для всех подписей, чтобы они были одинаковые по стилю-->
 		</div>
 
-		<div id="Sortiruy">
-			<div id="PotreblyaiImg">
+		<div id="Sorting">
+			<div id="SortingImg">
 				<img src="img/SORT.png">
         	</div>
-        	<div id="PotreblyaiText">
-        		<p id="headText">Сортируй</p>		<!--Используется class headText для всех подписей, чтобы они были одинаковые по стилю-->
+        	<div id="SortingText">
+        		<span class="headText">СОРТИРУЙ</span>		<!--Используется class headText для всех подписей, чтобы они были одинаковые по стилю-->
         	</div>
 		</div>		   
  
 	</div>
 
+	<div id="MainButton">	<!-- контейнер для кнопки-->
+
+    	<a class="MainButton" href="https://docs.google.com/forms/d/e/1FAIpQLSelVbjYoGt1q3QjYfeB2zDsl7afLZM7T9I0ZH9ZKVEZShtv0w/viewform?usp=sf_link">СООБЩИТЬ О ЗАПУСКЕ</a>
+
+  	</div>	
+
 	<div id="MainText">
 		<div id="zagolovok">
-	  		<span class="zagolovok">Осознанная жизнь</span>
+	  		<span class="zagolovok">ОСОЗНАННАЯ ЖИЗНЬ</span>
 	  	</div>
 
-	<div class="buttonSoobsit">	<!-- контейнер для кнопки-->
-
-    	<button onClick='location.href="https://docs.google.com/forms/d/e/1FAIpQLSelVbjYoGt1q3QjYfeB2zDsl7afLZM7T9I0ZH9ZKVEZShtv0w/viewform?usp=sf_link"' 
-    		class="buttonUvedomit">Сообщить о запуске</button>	<!-- кнопка ИЗМЕНИЛА ЗНАЧЕНИЕ КЛАССА-->
-
-  	</div>
 
 	<div id="podzagolovok">
-		<p>С нами просто:</p>
+		<span class="podzagolovok">С нами просто:</span>
 		</div>
 
 	</div>
@@ -65,15 +74,7 @@
 <!--Контейнер с информацией-->
     
 <div id="information">
-
-	<div id="yoga">	
-			<div id="yogaImg">
-	    		<img src="img/yoga.png">
-	    	</div>
-	    	<div class="YogaText">
-	    		<p>Тренироваться</p> 
-			</div>
- 	</div>    
+ 
 
  	<div id="ration">	
 			<div id="rationImg">
@@ -83,6 +84,15 @@
 	    		<p>Составлять рацион</p> 
 			</div>
  	</div>
+ 
+ 	<div id="yoga">	
+			<div id="yogaImg">
+	    		<img src="img/yoga.png">
+	    	</div>
+	    	<div class="YogaText">
+	    		<p>Тренироваться</p> 
+			</div>
+ 	</div>   
  	
  	<div id="sort">	
 			<div id="sortImg">
@@ -124,5 +134,7 @@
 
 </div>
 <!--Конец футреа с кредитсами-->
+</div> 
+<!--конец контейнера-->
 </body>
 </html>

@@ -10,66 +10,61 @@ h1 {
   	text-align: center; /* Ориентация текста */
 }
 
-span.zagolovok{
-  font-family: Roboto;
-font-style: normal;
+span.headText{
+  font-family: 'Roboto', sans-serif;
+  font-size: 55px;
+  color: #3b1c02;
+
+}
+
+a.MainButton{
+
+text-decoration: none;
+font-family: Roboto;
+font-size: 36px;
 font-weight: bold;
-font-size: 130px;
+color: #FFFFFF;
+background: #3b1c02;
+padding-bottom: 35px;
+padding-right: 120px;
+padding-left: 120px;
+padding-top: 35px;
+border-radius: 80px
+}
+
+a:hover.MainButton{
+
+text-decoration: none;
+font-family: Roboto;
+font-size: 36px;
+font-weight: bold;
+color: #abd476;
+background: #3b1c02;
+padding-bottom: 35px;
+padding-right: 120px;
+padding-left: 120px;
+padding-top: 35px;
+border-radius: 80px
+}
+
+
+
+span.zagolovok{
+font-family: Roboto;
+font-style: normal;
+font-weight: bolder;
+font-size: 126px;
 line-height: 152px;
 letter-spacing: 0.01em;
 
 color: #537428;
 }
-button.buttonUvedomit {
-  display: inline-block;
-  padding: 10px 15px; /* минимальный размер кнопки */
-  font-size: 24px; /* размер текста */
-  cursor: pointer; /* Курсор*/
-  text-align: center; /* ориентация текста в кнопке */
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #C2966D; /* цвет верхней части кнопки */
-  border: none;
-  border-radius: 15px; /* радиус углов кнопки */
-  box-shadow: 0 10px #4567; /* */
+
+span.podzagolovok{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+color: #3b1c02;
 }
 
-button.buttonUvedomit:hover {background-color: #3e8e41}
-
-button.uttonUvedomit:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-
-p {
-  font-family: verdana;
-  font-size: 20px;
-  text-align: center;
-}
-@import "compass/css3";
-
-.flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
-}
-
-.flex-item {
-  
-  line-height: 20px;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
-}
