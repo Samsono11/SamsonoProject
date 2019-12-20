@@ -20,9 +20,9 @@ body {
   grid-column: 1/4;
   grid-row: 1/1;
   padding: 2%;
-  margin: 1%;
+  margin: 2%;
   text-align: center;
-  font-size: 450%;
+  font-size: 700%;
   color: #33333;
 }
 
@@ -30,17 +30,18 @@ body {
 {
   grid-column: 1/2;
   grid-row: 2/2;
-
   text-align: center;
   width:100%;
-
+  padding-top: 5%
 }
+
 .features_img_2
 {
   grid-column: 2/3;
   grid-row: 2/2;
   text-align: center;
   width:100%;
+  padding-top: 5%
 
 }
 .features_img_3
@@ -49,14 +50,14 @@ body {
   grid-row: 2/2;
   text-align: center;
   width:100%;
-
+  padding-top: 5%
 }
 
 .features_name_1
 {
   grid-column: 1/2;
   grid-row: 3/3;
-  font-size: 34px;
+  font-size: 340%;
   color: #333;
   text-align: center;
   font-weight: bold;
@@ -65,7 +66,7 @@ body {
 {
   grid-column: 2/3;
   grid-row: 3/3;
-  font-size: 34px;
+  font-size: 340%;
   color: #333;
   text-align: center;
   font-weight: bold;
@@ -75,7 +76,7 @@ body {
 {
   grid-column: 3/4;
   grid-row: 3/3;
-  font-size: 34px;
+  font-size: 340%;
   color: #333;
   text-align: center;
   font-weight: bold;
@@ -94,14 +95,15 @@ body {
 a.grid_cpa_button
 {
   padding: 1%;
-  font-size: 36px;
+  font-size: 50px;
   text-decoration: none;
+  //font-weight: bold;
   color: #FBF3F3;
   background: #4BAEC9;
-  padding-bottom: 35px;
-  padding-right: 120px;
-  padding-left: 120px;
-  padding-top: 35px;
+  padding-bottom: 45px;
+  padding-right: 200px;
+  padding-left: 200px;
+  padding-top: 45px;
   border-radius: 80px;
   white-space: nowrap;
 }
@@ -109,13 +111,13 @@ a.grid_cpa_button
 a.grid_cpa_button:hover
 {
 text-decoration: none;
-font-size: 36px;
+font-size: 50px;
 color: #FBF3F3;
 background: #A09F96;
-padding-bottom: 35px;
-padding-right: 120px;
-padding-left: 120px;
-padding-top: 35px;
+padding-bottom: 45px;
+padding-right: 200px;
+padding-left: 200px;
+padding-top: 45px;
 border-radius: 80px;
 white-space: nowrap;
 }
@@ -124,7 +126,7 @@ white-space: nowrap;
 {
   grid-column: 1/4;
   grid-row: 5/5;
-  font-size: 250%;
+  font-size: 490%;
   text-align: center; 
   color: #333;
   line-height: 100%;
