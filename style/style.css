@@ -12,17 +12,17 @@ body {
   grid-column-gap: 36px;
   grid-row-gap: 36px;
   height: 200px;
-  padding: 42px;
+  padding: 22px;
   justify-content: center;
    }
 
 .grid_text_header {
   grid-column: 1/4;
   grid-row: 1/1;
-  padding: 2%;
-  margin: 2%;
+  padding: 1%;
+  margin: 1%;
   text-align: center;
-  font-size: 700%;
+  font-size: 350%;
   color: #33333;
 }
 
@@ -57,7 +57,7 @@ body {
 {
   grid-column: 1/2;
   grid-row: 3/3;
-  font-size: 340%;
+  font-size: 240%;
   color: #333;
   text-align: center;
   font-weight: bold;
@@ -66,7 +66,7 @@ body {
 {
   grid-column: 2/3;
   grid-row: 3/3;
-  font-size: 340%;
+  font-size: 240%;
   color: #333;
   text-align: center;
   font-weight: bold;
@@ -76,7 +76,7 @@ body {
 {
   grid-column: 3/4;
   grid-row: 3/3;
-  font-size: 340%;
+  font-size: 240%;
   color: #333;
   text-align: center;
   font-weight: bold;
@@ -94,31 +94,31 @@ body {
 
 a.grid_cpa_button
 {
-  padding: 1%;
-  font-size: 50px;
+ 
+  font-size: 27px;
   text-decoration: none;
-  //font-weight: bold;
+  font-weight: bold;
   color: #FBF3F3;
   background: #4BAEC9;
-  padding-bottom: 45px;
-  padding-right: 200px;
-  padding-left: 200px;
-  padding-top: 45px;
-  border-radius: 80px;
+  padding-bottom: 32px;
+  padding-right: 110px;
+  padding-left: 110px;
+  padding-top: 32px;
+  border-radius: 45px;
   white-space: nowrap;
 }
 
 a.grid_cpa_button:hover
 {
 text-decoration: none;
-font-size: 50px;
+font-size: 27px;
 color: #FBF3F3;
 background: #A09F96;
-padding-bottom: 45px;
-padding-right: 200px;
-padding-left: 200px;
-padding-top: 45px;
-border-radius: 80px;
+padding-bottom: 32px;
+padding-right: 110px;
+padding-left: 110px;
+padding-top: 32px;
+border-radius: 45px;
 white-space: nowrap;
 }
 
@@ -126,7 +126,7 @@ white-space: nowrap;
 {
   grid-column: 1/4;
   grid-row: 5/5;
-  font-size: 490%;
+  font-size: 250%;
   text-align: center; 
   color: #333;
   line-height: 100%;
