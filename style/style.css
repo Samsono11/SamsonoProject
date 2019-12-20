@@ -1,44 +1,115 @@
+
 body {
-  	background-color: #FBF3F3; /* Цвет фона веб-страницы бирюзовый */
-  	color: #000000; /* Цвет основного текста черный*/ 
+    font-family: sans-serif;
+    background-color: #FBF3F3; /* Цвет фона веб-страницы */
+    color: #000000; /* Цвет основного текста черный*/ 
+    }
+
+.container {
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 36px;
+  grid-row-gap: 36px;
+  height: 200px;
+  padding: 42px;
+  justify-content: center;
+   }
+
+.grid_text_header {
+  grid-column: 1/4;
+  grid-row: 1/1;
+  padding: 2%;
+  margin: 1%;
+  text-align: center;
+  font-size: 450%;
+  color: #33333;
 }
-h1 {
-  	color: #537428; /* Цвет заголовка зеленый*/
-  	font-size: 36pt; /* Размер шрифта в пунктах */
-  	font-family: "Times New Roman", Times, serif; /* Шрифтов */
-  	font-weight: bold; /* Нормальное начертание текста  */
-  	text-align: center; /* Ориентация текста */
-}
 
-span.headText{
-  font-family: 'Roboto', sans-serif;
-  font-size: 55px;
-  color: #3b1c02;
+.features_img_1
+{
+  grid-column: 1/2;
+  grid-row: 2/2;
+
+  text-align: center;
+  width:100%;
 
 }
+.features_img_2
+{
+  grid-column: 2/3;
+  grid-row: 2/2;
+  text-align: center;
+  width:100%;
 
-a.MainButton{
+}
+.features_img_3
+{
+  grid-column: 3/4;
+  grid-row: 2/2;
+  text-align: center;
+  width:100%;
 
+}
+
+.features_name_1
+{
+  grid-column: 1/2;
+  grid-row: 3/3;
+  font-size: 34px;
+  color: #333;
+  text-align: center;
+  font-weight: bold;
+}
+.features_name_2
+{
+  grid-column: 2/3;
+  grid-row: 3/3;
+  font-size: 34px;
+  color: #333;
+  text-align: center;
+  font-weight: bold;
+  
+}
+.features_name_3
+{
+  grid-column: 3/4;
+  grid-row: 3/3;
+  font-size: 34px;
+  color: #333;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+
+.grid_btn{
+  grid-column: 1/4;
+  grid-row: 4/4;
+  padding: 1%;
+  margin: 3%;
+  text-align: center;
+}
+
+a.grid_cpa_button
+{
+  padding: 1%;
+  font-size: 36px;
+  text-decoration: none;
+  color: #FBF3F3;
+  background: #4BAEC9;
+  padding-bottom: 35px;
+  padding-right: 120px;
+  padding-left: 120px;
+  padding-top: 35px;
+  border-radius: 80px;
+  white-space: nowrap;
+}
+
+a.grid_cpa_button:hover
+{
 text-decoration: none;
-font-family: Roboto;
 font-size: 36px;
-font-weight: bold;
-color: #FBF3F3;
-background: #4BAEC9;
-padding-bottom: 35px;
-padding-right: 120px;
-padding-left: 120px;
-padding-top: 35px;
-border-radius: 80px;
-white-space: nowrap;
-}
-
-a:hover.MainButton{
-
-text-decoration: none;
-font-family: Roboto;
-font-size: 36px;
-font-weight: bold;
 color: #FBF3F3;
 background: #A09F96;
 padding-bottom: 35px;
@@ -49,30 +120,13 @@ border-radius: 80px;
 white-space: nowrap;
 }
 
+.grid_text
+{
+  grid-column: 1/4;
+  grid-row: 5/5;
+  font-size: 250%;
+  text-align: center; 
+  color: #333;
+  line-height: 100%;
 
-
-span.zagolovok{
-font-family: Roboto;
-font-weight: normal;
-text-align: center;
-font-size: 55px;
-letter-spacing: 0.01em;
-color: #4B4431;
 }
-span.osoznano{
-font-family: Roboto;
-font-weight: bold;
-text-align: center;
-font-size: 55px;
-letter-spacing: 0.01em;
-color: #4B4431;
-}
-}
-span.podzagolovok{
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 64px;
-color: #3b1c02;
-}
-
