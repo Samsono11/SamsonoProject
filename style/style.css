@@ -1,78 +1,335 @@
-body {
-  	background-color: #FBF3F3; /* Цвет фона веб-страницы бирюзовый */
-  	color: #000000; /* Цвет основного текста черный*/ 
-}
-h1 {
-  	color: #537428; /* Цвет заголовка зеленый*/
-  	font-size: 36pt; /* Размер шрифта в пунктах */
-  	font-family: "Times New Roman", Times, serif; /* Шрифтов */
-  	font-weight: bold; /* Нормальное начертание текста  */
-  	text-align: center; /* Ориентация текста */
+
+.body {
+  font-family: MS Sans Serif;
+  background-color: #FFFF; /* Цвет фона веб-страницы */
+  color: #000000; /* Цвет основного текста черный*/ 
+  min-width: 1200px;
 }
 
-span.headText{
-  font-family: 'Roboto', sans-serif;
-  font-size: 55px;
-  color: #3b1c02;
+.container {
+  width: 1200px;
+  margin: 0px auto;
+  padding: 0px 15px;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-rows:repeat (16, 1px);
+  grid-column-gap: 36px;
+  grid-row-gap: 10px;
+  height: 200px;
+  justify-content: center;
+}
+
+.grid_text_header {
+  grid-column: 1/4;
+  grid-row: 1/1;
+  padding-top: 3%;
+  margin: 1%;
+  text-align: center;
+  font-size: 380%;
+  font-weight: normal;
+  padding-left: 6%;
+  color: #3B1C02;
+}
+
+.features_img_sort
+{
+  grid-column: 1/2;
+  grid-row: 2/2;
+  text-align: center;
+  padding-top: 20%
+}
+
+.features_img_sport
+{
+  grid-column: 2/3;
+  grid-row: 2/2;
+  text-align: center;
+  padding-top: 10%
+
+}
+.features_img_eat
+{
+  grid-column: 3/4;
+  grid-row: 2/2;
+  text-align: center;
+  padding-top: 20%
+}
+
+.features_name_sort
+{
+  grid-column: 1/2;
+  grid-row: 3/3;
+  font-size: 240%;
+  color: #3B1C02;
+  text-align: center;
+  padding-top: 5%
+  
+}
+.features_name_sport
+{
+  grid-column: 2/3;
+  grid-row: 3/3;
+  font-size: 240%;
+  color: #3B1C02;
+  text-align: center;
+  padding-top: 2%
+  
+  
+}
+.features_name_eat
+{
+  grid-column: 3/4;
+  grid-row: 3/3;
+  font-size: 240%;
+  color: #3B1C02;
+  text-align: center;
+  padding-top: 5%
+
 
 }
 
-a.MainButton{
 
-text-decoration: none;
-font-family: Roboto;
-font-size: 36px;
-font-weight: bold;
-color: #FBF3F3;
-background: #4BAEC9;
-padding-bottom: 35px;
-padding-right: 120px;
-padding-left: 120px;
-padding-top: 35px;
-border-radius: 80px;
-white-space: nowrap;
+.grid_btn{
+  grid-column: 1/4;
+  grid-row: 4/4;
+  padding: 1%;
+  margin: 3%;
+  text-align: center;
+  padding-top: 6%;
+  padding-left: 6%;
 }
 
-a:hover.MainButton{
+a.grid_cpa_button
+{
 
-text-decoration: none;
-font-family: Roboto;
-font-size: 36px;
-font-weight: bold;
-color: #FBF3F3;
-background: #A09F96;
-padding-bottom: 35px;
-padding-right: 120px;
-padding-left: 120px;
-padding-top: 35px;
-border-radius: 80px;
-white-space: nowrap;
+  font-size: 32px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #FBF3F3;
+  background: #4BAEC9;
+  padding-bottom: 32px;
+  padding-right: 110px;
+  padding-left: 110px;
+  padding-top: 32px;
+  border-radius: 45px;
+  white-space: nowrap;
+}
+
+a.grid_cpa_button:hover
+{
+  text-decoration: none;
+  font-size: 32px;
+  color: #FBF3F3;
+  background: #A09F96;
+  padding-bottom: 32px;
+  padding-right: 110px;
+  padding-left: 110px;
+  padding-top: 32px;
+  border-radius: 45px;
+  white-space: nowrap;
+}
+
+.grid_text
+{
+  grid-column: 1/3;
+  grid-row: 5/5;
+  font-size: 230%;
+  text-align: left; 
+  color: #3B1C02;
+  line-height: 130%;
+  margin: 2%;
+  padding-left:1%;
+  padding-top: 10%;
+
+}
+
+.features_img_ration
+{
+  grid-column: 1/3;
+  grid-row: 6/6;
+  text-align: center;
+  padding-top: 8%;
+  padding-right: 42%
+  
+}
+.features_name_ration
+{
+  grid-column: 1/3;
+  grid-row: 7/7;
+  font-size: 180%;
+  color: #3B1C02;
+  text-align: center;
+  font-weight: normal;
+  line-height: 110%;
+  padding-right: 42%
+
+}
+
+.features_img_yoga
+{
+  grid-column: 2/4;
+  grid-row: 6/6;
+  text-align: center;
+  padding-top: 8%;
+  padding-left: 55%
+}
+.features_name_yoga
+{
+  grid-column: 2/4;
+  grid-row: 7/7;
+  font-size: 180%;
+  color: #3B1C02;
+  text-align: center;
+  font-weight: normal;
+  margin: 1%;
+  padding-top: 0%;
+  line-height: 110%;
+  padding-left: 52%
+
+}
+.features_img_trash
+{
+  grid-column: 2/2;
+  grid-row: 7/8;
+  text-align: center;
+  margin: 1%;
+  padding-right: 6%;
+  padding-top: 18%; 
+}
+.features_name_trash
+{
+  grid-column: 2/2;
+  grid-row: 9/9;
+  font-size: 180%;
+  color: #3B1C02;
+  text-align: center;
+  font-weight: normal;
+  line-height: 110%;
+}
+
+.features_img_relax
+{
+  grid-column: 2/4;
+  grid-row: 10/10;
+  text-align: center;
+  margin: 1%;
+  padding-left: 40%;
+  padding-top: 8%; 
+}
+.features_name_relax
+{
+  grid-column: 2/3;
+  grid-row: 10/10;
+  font-size: 360%;
+  color: #3B1C02;
+  text-align: center;
+  padding-top: 28%; 
+  padding-right: 33%;
+  font-weight: bold;
+}
+.grid_btn_2{
+  grid-column: 2/3;
+  grid-row: 11/11;
+  padding: 1%;
+  margin: 3%;
+  text-align: center;
+  padding-top: 15%;
+  padding-left: 2%;
+}
+
+a.grid_cpa_button_2
+{
+
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #FBF3F3;
+  background: #4BAEC9;
+  padding-bottom: 32px;
+  padding-right: 110px;
+  padding-left: 110px;
+  padding-top: 32px;
+  border-radius: 45px;
+  white-space: nowrap;
+}
+
+a.grid_cpa_button_2:hover
+{
+  text-decoration: none;
+  font-size: 30px;
+  color: #FBF3F3;
+  background: #A09F96;
+  padding-bottom: 32px;
+  padding-right: 110px;
+  padding-left: 110px;
+  padding-top: 32px;
+  border-radius: 45px;
+  white-space: nowrap;
+}
+
+.features_img_morkov
+{
+  grid-column: 3/3;
+  grid-row: 11/11;
+  text-align: center;
+  margin: 1%;
+  padding-left: 0%;
+  padding-top: 10%; 
 }
 
 
-
-span.zagolovok{
-font-family: Roboto;
-font-weight: normal;
-text-align: center;
-font-size: 55px;
-letter-spacing: 0.01em;
-color: #4B4431;
+.features_img_ovosch
+{
+  grid-column: 1/2;
+  grid-row: 13/13;
+  text-align: center;
+  margin: 1%;
+  padding-left: 70%;
+  padding-top: 10%; 
 }
-span.osoznano{
-font-family: Roboto;
-font-weight: bold;
-text-align: center;
-font-size: 55px;
-letter-spacing: 0.01em;
-color: #4B4431;
-}
-}
-span.podzagolovok{
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 64px;
-color: #3b1c02;
+.features_name_ovosch
+{
+  grid-column: 2/3;
+  grid-row: 13/13;
+  font-size: 130%;
+  color: #3B1C02;
+  text-align: left;
+  font-weight: normal;
+  line-height: 110%;
+  padding-top: 11%;
+  line-height: 130%;
 }
 
+.features_img_paket
+{
+  grid-column: 2/2;
+  grid-row: 12/12;
+  text-align: center;
+  margin: 1%;
+  padding-left: 0%;
+  padding-top: 0%; 
+}
+
+
+.features_img_rastenie
+{
+  grid-column: 1/1;
+  grid-row: 11/11;
+  text-align: center;
+  margin: 1%;
+  padding-left: 20%;
+  padding-top: 8%; 
+}
+.cellar{
+  grid-column: 1/1;
+  grid-row: 16/16;
+  padding-top: 2%; 
+  margin: 1%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+
+}
+.line {
+  grid-column: 1/4;
+  grid-row: 15/15;
+}
