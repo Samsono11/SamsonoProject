@@ -1,0 +1,6 @@
+.idea/
+.vagrant/
+.DS_Store
+*.log
+*.save
+*.tmp
